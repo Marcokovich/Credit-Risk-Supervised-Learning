@@ -11,6 +11,9 @@ Balanced Accuracy Score:
 
 ![image](https://user-images.githubusercontent.com/71575748/164955827-e7d061d3-99a1-4a5c-a043-a62f852fc8ab.png)
 
+- Balanced Accuracy Score: 0.63
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.65
 
 ### Logistic Regression with SMOTE Oversampling:
 Balanced Accuracy Score:
@@ -18,6 +21,9 @@ Balanced Accuracy Score:
 
 ![image](https://user-images.githubusercontent.com/71575748/164955997-6504169a-f05d-466c-b154-b4764a8c5542.png)
 
+- Balanced Accuracy Score: 0.65
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.65
 
 ### Logistic Regression with Cluster Centroids Undersampling:
 Balanced Accuracy Score:
@@ -25,6 +31,9 @@ Balanced Accuracy Score:
 
 ![image](https://user-images.githubusercontent.com/71575748/164956061-bf11f904-9633-472b-8f7c-410a589419e6.png)
 
+- Balanced Accuracy Score: 0.51
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.40
 
 ### Logistic Regression with Combination Sampling:
 Balanced Accuracy Score:
@@ -32,6 +41,9 @@ Balanced Accuracy Score:
 
 ![image](https://user-images.githubusercontent.com/71575748/164956095-eb7839e5-1906-439d-a2ff-73db4c6cbdb0.png)
 
+- Balanced Accuracy Score: 0.57
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.54
 
 ### Balanced Random Forest Classifier:
 Balanced Accuracy Score:
@@ -39,11 +51,19 @@ Balanced Accuracy Score:
 
 ![image](https://user-images.githubusercontent.com/71575748/164956657-4234e01d-956b-47dd-acf7-bfc5d52fd685.png)
 
+- Balanced Accuracy Score: 0.83
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.91
+
 ### Easy Ensemble AdaBoost Classifier:
 Balanced Accuracy Score:
 ![image](https://user-images.githubusercontent.com/71575748/164956662-9cf71cac-36b1-4cbb-823a-eade89a8faf0.png)
 
 ![image](https://user-images.githubusercontent.com/71575748/164956671-d48d06b9-6751-44a9-812e-d5d4f726241f.png)
+
+- Balanced Accuracy Score: 0.93
+- Balanced Precision Score: 0.99
+- Balanced Recall Score: 0.94
 
 ## Summary:
 It would appear that the best model based on the scores is the Easy Ensemble Adaboost Classifier since it has the highest score for balanced accuracy .93 while maintaining a high f1 score of .96. The model has shown itself to be most effective with the testing set. Further research could be done such as using the XGBoost with over/undersampled data.
